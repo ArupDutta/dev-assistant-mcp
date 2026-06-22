@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 
-WORKLOG_FILE = Path(__file__).parent / "worklogs.json"
+WORKLOG_FILE = "worklogs.json"
 
 
 def add_note(note: str) -> str:
